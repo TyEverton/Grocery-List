@@ -1,5 +1,5 @@
 document.querySelector("form").addEventListener("submit", addItem)
-const message = document.querySelector("#message")
+
 
 
 
