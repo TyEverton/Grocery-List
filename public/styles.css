@@ -35,17 +35,7 @@ ul {
   display: center;
   position: fixed;
   top: 200px;
-  left: 40%;
-}
-
-
-li {
-  cursor: default;
-  padding-right: 0px;
-  padding-left: 28px;
-  font-size: 22px;
-  position: relative;
-  left: 3%;
+  left: 44%;
 }
 
 
