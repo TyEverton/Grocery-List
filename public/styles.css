@@ -17,6 +17,7 @@ body {
   font-size: 50px;
   position: fixed;
   left: 40%;
+  font-family: "Montserrat";
 }
 
 input {
@@ -27,7 +28,7 @@ input {
   padding: 6px 5px;
   position: relative;
   top: 150px;
-  right: 15px;
+  right: 55px;
 }
 
 ul {
@@ -36,7 +37,8 @@ ul {
   display: center;
   position: fixed;
   top: 200px;
-  left: 44%;
+  left: 42%;
+  font-family: "Montserrat";
 }
 
 
@@ -51,16 +53,19 @@ ul {
 }
 
 .add_button {
-  position: relative;
-  top: 148px;
+  position: absolute;
+  top: 152px;
   cursor: pointer;
-  left: 1px;
+  left: 54%;
+  
 }
 
 .add_button:hover {
   background-color: #39b63f;
   transform: scale(1.3);
   cursor: pointer;
+  top: 140px;
+  left: 54%;
 }
 
 button {
