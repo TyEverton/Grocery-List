@@ -27,6 +27,7 @@ input {
   padding: 6px 5px;
   position: relative;
   top: 150px;
+  right: 15px;
 }
 
 ul {
@@ -53,6 +54,7 @@ ul {
   position: relative;
   top: 148px;
   cursor: pointer;
+  left: 1px;
 }
 
 .add_button:hover {
