@@ -1,8 +1,5 @@
 document.querySelector("form").addEventListener("submit", addItem)
 
-
-
-
 function addItem(event) {
   event.preventDefault()
   let inputField = document.querySelector("input")
