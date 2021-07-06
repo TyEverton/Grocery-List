@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
@@ -30,10 +29,6 @@ input {
   top: 150px;
 }
 
-input:hover {
-  visbility: hidden;
-}
-
 ul {
   font-size: 24px;
   width: 100%;
@@ -43,13 +38,14 @@ ul {
   left: 40%;
 }
 
+
 li {
   cursor: default;
   padding-right: 0px;
   padding-left: 28px;
   font-size: 22px;
   position: relative;
-  left: 8%;
+  left: 3%;
 }
 
 
@@ -66,11 +62,13 @@ li {
 .add_button {
   position: relative;
   top: 148px;
+  cursor: pointer;
 }
 
 .add_button:hover {
   background-color: #39b63f;
-  transform: scale(1.3)
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 button {
@@ -86,6 +84,7 @@ button {
   font-family: "Montserrat";
   margin: 3px;
   left: 15px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -93,5 +92,7 @@ button:hover {
   transform: scale(1.3);
   margin: 15px;
   left: 15px;
+  cursor: pointer;
 }
+
 
